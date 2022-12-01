@@ -8,7 +8,9 @@ class List(models.Model):
     hours_slept = models.IntegerField()
     user = models.ForeignKey(
         User,
-        on_delete=models.CASCADE
+        on_delete=models.CASCADE,
+        null=True,
+        blank=True
     )
 
     created_at = models.DateTimeField(auto_now_add=True)
