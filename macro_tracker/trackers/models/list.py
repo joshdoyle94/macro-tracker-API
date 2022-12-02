@@ -18,7 +18,7 @@ class List(models.Model):
     updated_at = models.DateTimeField(auto_now_add=True)
 
     def __str__(self):
-        return f"Tracker: {self.date} has been created."
+        return f"{self.date}"
 
     def as_dict(self):
         return {
