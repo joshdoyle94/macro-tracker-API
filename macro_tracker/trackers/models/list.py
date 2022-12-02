@@ -7,6 +7,12 @@ class List(models.Model):
     mental_rating = models.IntegerField()
     physical_rating = models.IntegerField()
     hours_slept = models.IntegerField()
+    user = models.ForeignKey(
+        User,
+        on_delete=models.CASCADE,
+        null=True,
+        blank=True
+    )
 
     created_at = models.DateTimeField(auto_now_add=True)
     updated_at = models.DateTimeField(auto_now_add=True)
