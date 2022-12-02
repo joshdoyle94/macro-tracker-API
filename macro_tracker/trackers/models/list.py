@@ -1,5 +1,6 @@
 from django.db import models
 
+
 class List(models.Model):
     date = models.DateField()
     mental_rating = models.IntegerField()
