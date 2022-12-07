@@ -1,12 +1,13 @@
 # Full Stack Idea: Macro Tracker App
-
+<!-- missing route table -->
 # Overview
 This is a simple application to help users keep track of their daily diet and macros. Users will have the ability to create a daily list of the foods they have consumed,
 and add the total protein, carbohydrates, fats, and calories of each meal and then
 receive a cumulative score for the day.
 The purpose of this application is to enable users to more seamlessly
 track their day-to-day diet habits and progress towards improving nutrition. 
-
+<!-- this repo does not use react JS CSS html node or bootstrap -->
+<!-- link to front end repo with an explanation that this api is designed to be consumed by your other client app  -->
 # Technologies used:
 - HTML5
 - CSS
@@ -17,7 +18,7 @@ track their day-to-day diet habits and progress towards improving nutrition.
 - Python
 - Django
 - Bootstrap
-
+<!-- API readme does not need user stories, this is a front end item  -->
 # User Stories
 - As a user, I want the ability to sign up for the application with a distinct username.
 - As a user, I want the ability to log in after signing up.
@@ -38,7 +39,8 @@ track their day-to-day diet habits and progress towards improving nutrition.
 - As a user, I want the ability to be redirected to the sign-in page when trying to access other pages while logged out. 
 
 
-
+<!-- API readme does not need wire frames, this is a front end item -->
+<!-- make alt texts slightly more descriptive  -->
 # Wireframe/Screenshots
 ![Full-Stack-Project](Wireframes/Macro%20Tracker%20Wireframes.drawio.png)
 
